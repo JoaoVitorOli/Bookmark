@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercícios</title>
+    <script src="javascript/exercicio1.js"></script>
+    <script src="javascript/exercicio2.js"></script>
+    <style>
+        .container{
+            max-width: 1200px;
+            color: black;
+            font-family: arial;
+            width: 100%;
+            margin: 0 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exercicio 1</h1>
+        <h2>Calcular médias</h2>
+        <p>Adicione números: </p>
+        <input type="number" id="input-number">
+        <button id="buttonAdicionarEx1" onclick="adicionar()">Adicionar</button>
+        <button style="margin-left: 10px" id="buttonEx1" onclick="calcular()">Calcular</button>
+        <div id="div1-ex1"></div>
+        <div id="div2-ex1"></div>
+    </div><!--container-->
+    <hr>
+   <br>
+   <div class="container">
+    <h1>Exercicio 2</h1>
+    <h2>Calcular o quadrado de 5 números</h2>
+    <p>Adicione 5 números: </p>
+        <input type="number" id="input-numberEx2">
+        <div style="display: inline-block;" id='div2-ex2'> <button id="buttonCalcularEx2" onclick="calcularEx2()">Calcular</button> </div>
+        <div id="div3-ex2"> <div id="div1-ex2"></div> </div>
+   </div><!--container-->
+</body>
+</html>
