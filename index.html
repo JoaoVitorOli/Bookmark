@@ -7,6 +7,8 @@
     <title>Exercícios</title>
     <script src="javascript/exercicio1.js"></script>
     <script src="javascript/exercicio2.js"></script>
+    <script src="javascript/exercicio3.js"></script>
+    <script src="javascript/exercicio4.js"></script>
     <style>
         .container{
             max-width: 1200px;
@@ -20,7 +22,7 @@
 <body>
     <div class="container">
         <h1>Exercicio 1</h1>
-        <h2>Calcular médias</h2>
+        <h2>Calcular média</h2>
         <p>Adicione números: </p>
         <input type="number" id="input-number">
         <button id="buttonAdicionarEx1" onclick="adicionar()">Adicionar</button>
@@ -31,12 +33,32 @@
     <hr>
    <br>
    <div class="container">
-    <h1>Exercicio 2</h1>
-    <h2>Calcular o quadrado de 5 números</h2>
-    <p>Adicione 5 números: </p>
+        <h1>Exercicio 2</h1>
+        <h2>Calcular o quadrado de 5 números</h2>
+        <p>Adicione 5 números: </p>
         <input type="number" id="input-numberEx2">
         <div style="display: inline-block;" id='div2-ex2'> <button id="buttonCalcularEx2" onclick="calcularEx2()">Calcular</button> </div>
         <div id="div3-ex2"> <div id="div1-ex2"></div> </div>
    </div><!--container-->
+   <hr>
+   <div class="container">
+        <h1>Exercício 3</h1>
+        <h2>Qual o maior número dentre os 5 digitados</h2>
+        <p>Adicione 5 números:</p>
+        <input type="number" id='input-ex3'>
+        <button onclick="adicionarEx3()" style="margin-bottom: 14px;" id='button-ex3'>Adicionar</button>
+        <div id='div1-ex3'></div>
+
+   </div><!--container-->
+   <hr>
+   <div class="container">
+       <h1>Exercício 4</h1>
+       <h2>Quantas pessoas são maior de idade e menor de idade</h2>
+        <p>Digite as idades:</p>
+        <input type="number" id='input-ex4'>
+        <button id='buttonEx4' onclick="adicionarEx4()">Adicionar</button>
+        <div id='div1-ex4' style="display: inline-block; margin-left: 16px; margin-top: 15px;"></div>
+        <div id='div2-ex4'></div>
+   </div>
 </body>
 </html>
